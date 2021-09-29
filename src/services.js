@@ -22,7 +22,15 @@ function getNewsUrls(homepageUrl, homepageHtml, newsClassName) {
    return newsUrls
 }
 
+async function getNews(newsIndex) {
+   const htmlNewsBody = await fetchUrl(newsUrls[newsIndex])
+   const $ = cheerio.load(htmlNewsBody)
+   const arr = Object.values($('p'))
+   return cheerio.text(arr)
+}
+
 module.exports = {
+   getNews,
    fetchUrl,
    getNewsUrls,
 }
