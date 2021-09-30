@@ -1,0 +1,29 @@
+{
+  "name": "@1001josias/news.js",
+  "version": "1.0.0",
+  "description": "\"Scraper to get the latest news from some selected portals.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1001Josias/news.js.git"
+  },
+  "keywords": [
+    "[news",
+    "latest",
+    "news",
+    "news.js]"
+  ],
+  "author": "Josias Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1001Josias/news.js/issues"
+  },
+  "homepage": "https://github.com/1001Josias/news.js#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
