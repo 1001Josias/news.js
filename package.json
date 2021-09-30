@@ -1,7 +1,7 @@
 {
-  "name": "news.js",
+  "name": "new.js",
   "version": "1.0.0",
-  "description": "\"Scraper to get the latest google news.\"",
+  "description": "\"Scraper to get the latest news from some selected portals.\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,10 @@
     "url": "git+https://github.com/1001Josias/news.js.git"
   },
   "keywords": [
-    "[news\"",
-      "latest news",
-      "newsjs]"
+    "[news",
+    "latest",
+    "news",
+    "news.js]"
   ],
   "author": "Josias Junior",
   "license": "MIT",
