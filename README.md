@@ -1,7 +1,7 @@
 # news.js
 Get the latest news from selected portals
 
-### To use run:
+### To use execute:
 
 `git clone https://github.com/1001Josias/news.js.git`
 
