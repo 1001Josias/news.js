@@ -1,6 +1,6 @@
 {
   "name": "@1001josias/news.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"Scraper to get the latest news from some selected portals.\"",
   "main": "index.js",
   "scripts": {
