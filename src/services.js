@@ -14,11 +14,10 @@ async function services(homepageUrl, newsClassName) {
 
    async function fetchUrl(url) {
       try {
-         log('{fetchUrl}: Getting the website HTML...')
          const response = await axios.get(url)
          return await response.data         
       } catch (error) {
-         log(`{fetchUrl Error}:\n ${error}`)
+         console.log(`{fetchUrl Error}:\n ${error}`)
       }
    }
 
@@ -28,7 +27,7 @@ async function services(homepageUrl, newsClassName) {
       const newsUrls = []
       $(elementsHtml).map((index, element) => {
          let href = element.attribs.href
-         newsUrls.push(homepageUrl + href)
+         newsUrls.push(href.includes(homepageUrl)? href:homepageUrl + href)
       })
       return newsUrls
    }
