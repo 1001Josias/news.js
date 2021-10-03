@@ -6,6 +6,7 @@ const allAgencyNews = {
    globoEsporte: ()=> services('https://ge.globo.com', 'feed-media-wrapper' ),
    livecoins: ()=> services('https://livecoins.com.br', 'td-module-thumb'),
    senadoFederal: ()=> services('https://www12.senado.leg.br/noticias', 'embed-responsive'),
+   criptofacil: ()=> services('https://www.criptofacil.com', 'elementor-heading-title'),
 }
 
 module.exports = allAgencyNews
