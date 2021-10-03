@@ -8,6 +8,7 @@ const allAgencyNews = {
    senadoFederal: ()=> services('https://www12.senado.leg.br/noticias', 'embed-responsive'),
    criptofacil: ()=> services('https://www.criptofacil.com', 'elementor-heading-title'),
    tecnoblog: ()=> services('https://tecnoblog.net', 'texts'),
+   beincrypto: ()=> services('https://beincrypto.com.br', 'title.h-100')
 }
 
 module.exports = allAgencyNews
