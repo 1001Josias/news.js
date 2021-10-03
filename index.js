@@ -7,6 +7,7 @@ const allAgencyNews = {
    livecoins: ()=> services('https://livecoins.com.br', 'td-module-thumb'),
    senadoFederal: ()=> services('https://www12.senado.leg.br/noticias', 'embed-responsive'),
    criptofacil: ()=> services('https://www.criptofacil.com', 'elementor-heading-title'),
+   tecnoblog: ()=> services('https://tecnoblog.net', 'texts'),
 }
 
 module.exports = allAgencyNews
